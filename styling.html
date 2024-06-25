@@ -1,1 +1,51 @@
-
+/*styling.css*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+.stopwatch {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+.stopwatch h1 {
+    margin: 0 0 20px;
+    font-size: 24px;
+}
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.buttons button {
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px 20px;
+    transition: background 0.3s;
+}
+.buttons button:hover {
+    background: #0056b3;
+}
+#laps {
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+}
+#laps li {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+}
